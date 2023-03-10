@@ -1,0 +1,950 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- navbar start -->
+    <div class="bg-dark">
+        <div class="container-fluid ">
+            <div class="d-lg-flex navbar_social_content">
+                <div>
+                    <ul class="nav">
+                        <div class="navbar_social d-flex px-5">
+                            <li class="nav-item">
+                                <i class="fa-brands fa-facebook-f "></i>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-brands fa-twitter"></i>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-brands fa-youtube"></i>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-brands fa-instagram"></i>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="d-lg-flex container py-3">
+                    <div class="ps-lg-5">
+                        <div class="d-flex text-white">
+                            <i class="fa-solid fa-person-chalkboard  me-3 fs-2 mt-2"></i>
+                            <div>
+                                <h6>8671 Santa Monica Bhsh882777</h6>
+                                <p>West Zone, Australia,90004 Usa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mx-lg-5">
+                        <div class="d-flex text-white">
+
+                            <i class="fa-solid fa-envelope  me-3 fs-2 mt-2"></i>
+                            <div>
+                                <h6>Send Your Mail At</h6>
+                                <p>sdjj@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-flex text-white">
+                            <i class="fa-solid fa-person-chalkboard  me-3 fs-2 mt-2"></i>
+
+                            <div>
+                                <h6>Working Hours</h6>
+                                <p>Mon-Fri 8.00am -5.00px UTC</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg p-0 m-0">
+
+            <div class="w-100">
+                <button class="navbar-toggler bg-light text-bg-dark" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand text-white alpha" href="#">Alpha</a>
+                    <div class="w-100 nav-right py-3">
+                        <div class="d-lg-flex">
+                            <ul class="navbar-nav mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Products<i
+                                            class="fa-solid fa-chevron-down arrow"></i></a>
+
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">All Solutions <i
+                                            class="fa-solid fa-chevron-down arrow"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link">Support <i class="fa-solid fa-chevron-down arrow"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Distributor </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link">About <i class="fa-solid fa-chevron-down arrow"></i></a>
+                                </li>
+                            </ul>
+                            <form class="d-flex me-5" role="search">
+                                <div class="d-flex" style="background: white;">
+
+                                    <input type="text" class="px-3" placeholder="Search"
+                                        aria-label="Input group example" aria-describedby="btnGroupAddon"
+                                        style="border:none">
+                                    <div class="p-2 me-2" id="btnGroupAddon" style="border:none">
+                                        <i class=" fa-solid fa-magnifying-glass"></i>
+                                    </div>
+
+                                </div>
+                                <i class="fa-solid fa-user text-white mt-2 mx-4"></i>
+                                <i class="fa-solid fa-cart-shopping text-white mt-2"></i>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- slider -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner carousel_main">
+            <div class="carousel-item active ">
+                <img src="https://img.freepik.com/free-photo/top-view-woman-repairing-car_23-2150171262.jpg?w=1380&t=st=1678404308~exp=1678404908~hmac=a61fbb5a83964f3b17a6a628a78c4f99db47571b7c2c7a5871c6a67dea1c31d3"
+                    class="d-block w-100 img-fluid " alt="...">
+                <div class="carousel-caption d-none d-md-block ">
+                    <div class="slider_card text-start">
+                        <div>
+                            <h5>Woodworking Shop</h5>
+                            <h3 class="text-uppercase slider_h5 ">Dust Collection</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum porro
+                                dolores unde velit.
+                                Architecto, amet. Quasi non rem, delectus architecto reprehenderit inventore doloremque
+                                ad
+                                ratione dolore deserunt corrupti, in voluptatum..</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://img.freepik.com/free-photo/young-housewife-gloves-showing-sponge-clean-plate-isolated_231208-10999.jpg?w=1380&t=st=1678404476~exp=1678405076~hmac=08bf2a625f9eb63ca4486d462b705708c3cec430475646e30a88981df73ade68"
+                    class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block ">
+                    <div class="slider_card text-start">
+                        <div>
+                            <h5>Woodworking Shop</h5>
+                            <h3 class="text-uppercase slider_h5 ">Dust Collection</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum porro
+                                dolores unde velit.
+                                Architecto, amet. Quasi non rem, delectus architecto reprehenderit inventore doloremque
+                                ad
+                                ratione dolore deserunt corrupti, in voluptatum..</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://img.freepik.com/free-photo/front-view-male-worker-with-tool-case-red-background-photo-color-worker-house-job-emotion-mechanic-instrument_140725-155588.jpg?w=1380&t=st=1678404613~exp=1678405213~hmac=0afcaefc8d7a3a255864f49926adb759468db8428a8843cfa9738ef47bb34b05"
+                    class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block ">
+                    <div class="slider_card text-start">
+                        <div>
+                            <h5>Woodworking Shop</h5>
+                            <h3 class="text-uppercase slider_h5 ">Dust Collection</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum porro
+                                dolores unde velit.
+                                Architecto, amet. Quasi non rem, delectus architecto reprehenderit inventore doloremque
+                                ad
+                                ratione dolore deserunt corrupti, in voluptatum..</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Healthy air start-->
+    <section class="container">
+        <div class="text-center">
+            <h1 class="text-uppercase">Alphasyetems <span class="healthy_text"> Healthy air system</span></h1>
+            <p cla>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque necessitatibus cumque eos quam veniam
+                ipsam
+                ab vel et optio mollitia, architecto sunt? Maiores aliquam alias voluptatibus. Ullam nulla eligendi cum
+                sequi quasi! Similique placeat maxime impedit sunt laboriosam pariatur tempore! Harum doloremque quia
+                modi
+                eum expedita, unde recusandae quam laudantium ex, maiores assumenda itaque corporis ducimus debitis eos
+                fugiat sit fuga, doloribus vel non asperiores voluptatibus! Veritatis quasi vel asperiores repellendus
+                quos
+                molestias, voluptas dolor, impedit similique ab quibusdam quidem quo reprehenderit expedita dolorem
+                recusandae in minus blanditiis accusamus eos aspernatur! Consequatur nemo ad expedita ratione, dolore
+                repudiandae delectus magni.</p>
+        </div>
+        <div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card healty_card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUj4GkjgUI1Fx5jpiHLz4r1Y8Oy6KwhpB-2q2IVEvg8v-l10Eh"
+                            class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-uppercase">Commercial air scrubber</h5>
+                            <p class="card-text">Commercial & Industrial Air Scrubber</p>
+                            <a href="#" class="healty_read_me">Read more></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card healty_card">
+                        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTiJtURXHuueQrxYbMWpmqHfiB5cy4ht6VNju2Opeb9LJhkma3M"
+                            class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-uppercase">Commercial air scrubber</h5>
+                            <p class="card-text">Commerecial & Industrial Air Scrubber</p>
+                            <a href="#" class="healty_read_me">Read more></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card healty_card">
+                        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT2xU_1X0I_Yf2OxQRRRENTSzgxGR-3BgcxnVMSYt41o6_76eUk"
+                            class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-uppercase">Commercial air scrubber</h5>
+                            <p class="card-text">Commercial & Industrial Air Scrubber</p>
+                            <a href="#" class="healty_read_me">Read more></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Headquarters-->
+    <section class="latest-arrival">
+        <div class="container ">
+            <div>
+                <h1 class="text-uppercase">Alphasyetems <span class="Headquarters_span">U.S.
+                        Headquarters</span></h1>
+                <div class="d-flex justify-content-between my-5 ">
+                    <div class="w-75">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque necessitatibus cumque
+                            eos quam veniam
+                            ipsam
+                            ab vel et optio mollitia, architecto sunt? Maiores aliquam alias voluptatibus. Ullam nulla
+                            eligendi
+                            cum
+                            sequi quasi! Similique placeat maxime impedit sunt laboriosam pariatur tempore! Harum
+                            doloremque
+                            quia
+                            modi
+                        </p>
+                    </div>
+                    <div class="headquarters">
+                        <i class="fa-solid fa-play"></i>
+                        <p>Video</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="row g-4 ">
+                    <div class="col-md-8">
+                        <div class="technology_card">
+                            <img src="https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cGVvcGxlJTIwd29ya2luZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                                class="w-100" alt="..." style="height:390px">
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="headquarters_card">
+                            <div class="card-body text-start text-white p-5">
+                                <h5 class="card-title my-4">Alphasyetems <span class="headquarters_card_span">Commercial
+                                        Air
+                                        Solutions</span></h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                                    officia,
+                                    corrupti officiis aspernatur </p>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                <button class="headquarters_card_btn">Learn more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="headquarters_bg w-100">
+            <div class="container py-5 headquarters_Part_inside">
+                <div class="d-lg-flex text-white text-uppercase headquarters_Part_tropy">
+                    <div class="d-flex">
+                        <i class="fa-solid fa-trophy me-3"></i>
+                        <div>
+                            <h4>Best Quality</h4>
+                            <h6>Guarantee</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex mx-lg-5">
+                        <i class="fa-solid fa-trophy me-3"></i>
+                        <div>
+                            <h4>1 Year</h4>
+                            <h6>Warranty</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa-solid fa-trophy me-3"></i>
+                        <div>
+                            <h4>Wordlwide</h4>
+                            <h6>Shipping</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- makes different start-->
+    <section class="container different_part">
+        <div class="makes-different">
+            <div class="row g-4">
+                <div class="col-md-5">
+                    <div class=" healty_card">
+                        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTKUaZVDBkqjF5JYO-J73tRGvkyJ3Fh3osZonpP3K6KU-9zUGaq"
+                            class="card-img-top" alt="...">
+
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <h1>What makes us <span class="makes-different_span">Difference</span></h1>
+                    <p class="my-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque totam adipisci
+                        facilis, quae rem
+                        ducimus ipsum quasi iusto illum. Cum perspiciatis praesentium vitae dignissimos, repellendus
+                        vero quaerat suscipit enim id adipisci ducimus similique officiis deserunt autem cumque
+                        reprehenderit labore!</p>
+                    <div>
+                        <li><a><i class="fa-solid fa-thumbs-up thumbs_color me-3"></i>UV-C Light Technology</a></li>
+                        <li><a><i class="fa-solid fa-thumbs-up thumbs_color me-3"></i>Mold and Particulate Dust
+                                Contamination
+                                Restrictions</a></li>
+                        <li><a><i class="fa-solid fa-thumbs-up thumbs_color me-3"></i>UV-C Light Technology</a></li>
+                        <li><a><i class="fa-solid fa-thumbs-up thumbs_color me-3"></i>Mold and Particulate Dust
+                                Contamination
+                                Restrictions</a></li>
+
+                    </div>
+                    <button class="makes-different_btn">Get in Touch</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Technology guidelines start-->
+    <section class="container technology">
+        <div class="text-center">
+            <h1 class="text-uppercase technology_h1">Technology <span class="text-dark"> Guidelines</span></h1>
+            <p cla>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque necessitatibus cumque eos quam veniam
+                ipsam
+                ab vel et optio mollitia, architecto sunt? Maiores aliquam alias voluptatibus. Ullam nulla eligendi cum
+                sequi quasi! Similique placeat maxime impedit sunt laboriosam pariatur tempore! Harum doloremque quia
+                modi
+            </p>
+        </div>
+        <div class="mt-5">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="technology_card1">
+                        <div class="card-body text-start  p-5">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Qr1-UCM9PcP2kePXneI86QjOCEE-yvjkiA&usqp=CAU"
+                                alt="" class="technology_circel_img">
+                            <p>Award-Winning Solutions</p>
+                            <h5 class="card-title text-uppercase my-4">Health Air System</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit officia,
+                                corrupti officiis aspernatur fuga vitae vero nisi sequi amet, dolorem minima, quibusdam
+                                corporis dolores repellat. Eos exercitationem facilis dicta accusamus corrupti officiis
+                                soluta maiores non eaque. </p>
+                            <a href="#" class="healty_read_me">Read more></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="technology_card">
+                        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTuEw5IoxwjuCN8IWcXO4MED1Y0aJi69q7DmU23xQWhNL84KUiF"
+                            class="h-100 w-100" alt="...">
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="technology_card2">
+                        <div class="card-body text-center text-white p-5">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuGvcxofQL82OCEQ7ECV8gtPpfE20FsSIUXg&usqp=CAU"
+                                alt="" class="technology_circel_img">
+                            <p>Let's Clear the Air</p>
+                            <h5 class="card-title text-uppercase my-4">Health Clean Air</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit officia,
+                                corrupti officiis aspernatur fuga vitae vero nisi sequi amet, dolorem minima, quibusdam
+                                corporis dolores repellat. Eos exercitationem facilis dicta accusamus corrupti officiis
+                                soluta maiores non eaque. </p>
+                            <a href="#" class="healty_read_me text-white">Read more></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Latest Arrivals start-->
+    <section class="container latest-arrival">
+        <div>
+            <h1 class="text-uppercase latest_arrival_h1">Latest <span class="latest_arrival_p">Arrivals</span></h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque necessitatibus cumque eos quam veniam
+                ipsam
+                ab vel et optio mollitia, architecto sunt? Maiores aliquam alias voluptatibus. Ullam nulla eligendi cum
+                sequi quasi! Similique placeat maxime impedit sunt laboriosam pariatur tempore! Harum doloremque quia
+                modi
+            </p>
+        </div>
+        <div>
+            <div class="row g-0">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS3xOxFvVdPzkP6mSNimMIKWZx_X1TKfJwLY7D1WD_UluRBbExS"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase">Commercial air scrubber</h5>
+                            <p class="card-text">Commercial & Industrial Air Scrubber Lorem ipsum dolor, sit amet
+                                consectetur adipisicing elit. Natus, dicta.</p>
+                            <div class="d-flex">
+                                <h4>$</h4>
+                                <h1>799.99</h1>
+                                <a href="#" class="healty_read_me ms-5 mt-3">Read more></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS3xOxFvVdPzkP6mSNimMIKWZx_X1TKfJwLY7D1WD_UluRBbExS"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase">Commercial air scrubber</h5>
+                            <p class="card-text">Commercial & Industrial Air Scrubber Lorem ipsum dolor, sit amet
+                                consectetur adipisicing elit. Natus, dicta.</p>
+                            <div class="d-flex">
+                                <h4>$</h4>
+                                <h1>799.99</h1>
+                                <a href="#" class="healty_read_me ms-5 mt-3">Read more></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS3xOxFvVdPzkP6mSNimMIKWZx_X1TKfJwLY7D1WD_UluRBbExS"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase">Commercial air scrubber</h5>
+                            <p class="card-text">Commercial & Industrial Air Scrubber Lorem ipsum dolor, sit amet
+                                consectetur adipisicing elit. Natus, dicta.</p>
+                            <div class="d-flex">
+                                <h4>$</h4>
+                                <h1>799.99</h1>
+                                <a href="#" class="healty_read_me ms-5 mt-3">Read more></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS3xOxFvVdPzkP6mSNimMIKWZx_X1TKfJwLY7D1WD_UluRBbExS"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase">Commercial air scrubber</h5>
+                            <p class="card-text">Commercial & Industrial Air Scrubber Lorem ipsum dolor, sit amet
+                                consectetur adipisicing elit. Natus, dicta.</p>
+                            <div class="d-flex">
+                                <h4>$</h4>
+                                <h1>799.99</h1>
+                                <a href="#" class="healty_read_me ms-5 mt-3">Read more></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS3xOxFvVdPzkP6mSNimMIKWZx_X1TKfJwLY7D1WD_UluRBbExS"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase">Commercial air scrubber</h5>
+                            <p class="card-text">Commercial & Industrial Air Scrubber Lorem ipsum dolor, sit amet
+                                consectetur adipisicing elit. Natus, dicta.</p>
+                            <div class="d-flex">
+                                <h4>$</h4>
+                                <h1>799.99</h1>
+                                <a href="#" class="healty_read_me ms-5 mt-3">Read more></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS3xOxFvVdPzkP6mSNimMIKWZx_X1TKfJwLY7D1WD_UluRBbExS"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase">Commercial air scrubber</h5>
+                            <p class="card-text">Commercial & Industrial Air Scrubber Lorem ipsum dolor, sit amet
+                                consectetur adipisicing elit. Natus, dicta.</p>
+                            <div class="d-flex">
+                                <h4>$</h4>
+                                <h1>799.99</h1>
+                                <a href="#" class="healty_read_me ms-5 mt-3">Read more></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS3xOxFvVdPzkP6mSNimMIKWZx_X1TKfJwLY7D1WD_UluRBbExS"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase">Commercial air scrubber</h5>
+                            <p class="card-text">Commercial & Industrial Air Scrubber Lorem ipsum dolor, sit amet
+                                consectetur adipisicing elit. Natus, dicta.</p>
+                            <div class="d-flex">
+                                <h4>$</h4>
+                                <h1>799.99</h1>
+                                <a href="#" class="healty_read_me ms-5 mt-3">Read more></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS3xOxFvVdPzkP6mSNimMIKWZx_X1TKfJwLY7D1WD_UluRBbExS"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase">Commercial air scrubber</h5>
+                            <p class="card-text">Commercial & Industrial Air Scrubber Lorem ipsum dolor, sit amet
+                                consectetur adipisicing elit. Natus, dicta.</p>
+                            <div class="d-flex">
+                                <h4>$</h4>
+                                <h1>799.99</h1>
+                                <a href="#" class="healty_read_me ms-5 mt-3">Read more></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- latest blog -->
+
+    <section>
+        <div class="text-center blog_background text-white">
+            <div>
+                <h1 class="text-uppercase pt-4">Latest <span class="healthy_text"> Blogs</span></h1>
+                <p class="px-lg-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque necessitatibus cumque
+                    eos quam
+                    veniam
+                    ipsam
+                    ab vel et optio mollitia, architecto sunt? Maiores aliquam alias voluptatibus. Ullam nulla eligendi
+                    cum
+                    sequi quasi! Similique placeat maxime impedit sunt laboriosam pariatur tempore! Harum doloremque
+                    quia
+                    modi
+                </p>
+            </div>
+        </div>
+        <div class="blog_card_part container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="blog_card">
+                        <div class="card-body  p-5">
+                            <div class="d-lg-flex">
+                                <div>
+                                    <h6>Technology</h6>
+                                    <h2 class="text-uppercase">How Do Alpha filters And Uv Light Air Alphafires work
+                                    </h2>
+                                </div>
+                                <div class="blog_date">
+                                    <h1 class="p-0 m-0">19</h1>
+                                    <h1>FEB</h1>
+                                </div>
+                            </div>
+
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit officia,
+                                corrupti officiis aspernatur fuga vitae vero nisi sequi amet, dolorem minima, quibusdam
+                                corporis dolores repellat. Eos exercitationem facilis dicta accusamus corrupti officiis
+                                soluta maiores non eaque. </p>
+                            <div class="d-flex justify-content-end">
+                                <a href="#" class="blog_read_more">Read more></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog_card">
+                        <div class="card-body  p-5">
+                            <div class="d-lg-flex">
+                                <div>
+                                    <h6>Health Home</h6>
+                                    <h2 class="text-uppercase">Can Air Alphafires Protect you from covid-19
+                                    </h2>
+                                </div>
+                                <div class="blog_date">
+                                    <h1 class="p-0 m-0">16</h1>
+                                    <h1>JAN</h1>
+                                </div>
+                            </div>
+
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit officia,
+                                corrupti officiis aspernatur fuga vitae vero nisi sequi amet, dolorem minima, quibusdam
+                                corporis dolores repellat. Eos exercitationem facilis dicta accusamus corrupti officiis
+                                soluta maiores non eaque. </p>
+                            <div class="d-flex justify-content-end">
+                                <a href="#" class="blog_read_more">Read more></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog_card">
+                        <div class="card-body  p-5">
+                            <div class="d-lg-flex">
+                                <div>
+                                    <h6>Technology</h6>
+                                    <h2 class="text-uppercase">How Do Alpha filters And Uv Light Air Alphafires work
+                                    </h2>
+                                </div>
+                                <div class="blog_date">
+                                    <h1 class="p-0 m-0">20</h1>
+                                    <h1>MAY</h1>
+                                </div>
+                            </div>
+
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit officia,
+                                corrupti officiis aspernatur fuga vitae vero nisi sequi amet, dolorem minima, quibusdam
+                                corporis dolores repellat. Eos exercitationem facilis dicta accusamus corrupti officiis
+                                soluta maiores non eaque. </p>
+                            <div class="d-flex justify-content-end">
+                                <a href="#" class="blog_read_more">Read more></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- partner -->
+    <section class="container">
+        <div class="partner">
+            <div>
+                <div class="row">
+                    <div class="col-md-5 partner_text">
+                        <h1 class="text-white p-4">Looking For Best Partner For Your Own Business</h1>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="d-flex justify-content-around">
+                            <button class="partner_btn">Apply Now</button>
+                            <div>
+                                <img src="/img/1.png" alt="" class="partner_img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial -->
+    <section class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="text-uppercase">Client <span class="testimonial_h1">Textimonials</span></h1>
+                <h1>We Have Many Statisfied Clients Say About Us</h1>
+                <div class="testimonial_card mt-5">
+                    <div class="d-flex justify-content-center w-100">
+                        <div class="text-center">
+                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGVyc29ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                                alt="" class="my-3 testimonial_img">
+                            <div>
+                                <i class="fa-solid fa-star testimonial_star"></i>
+                                <i class="fa-solid fa-star testimonial_star"></i>
+                                <i class="fa-solid fa-star testimonial_star"></i>
+                                <i class="fa-solid fa-star testimonial_star"></i>
+                                <i class="fa-regular fa-star ms-1"></i>
+                            </div>
+                            <p class="p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Possimus
+                                quisquam velit incidunt
+                                dicta veritatis reprehenderit, mollitia, expedita quibusdam soluta nesciunt dolor
+                                voluptas tempore quaerat asperiores sit atque distinctio alias non in eaque
+                                necessitatibus delectus.</p>
+                            <h6>Maria D</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 ps-lg-5">
+                <h1 class="text-uppercase ">Question <span class="testimonial_h1">Answer</span></h1>
+                <h1>Get Some Answers From Frequency Asked Question</h1>
+                <div class="accordion mt-5" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button bg-body" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+                                style="color:#F79F65;">
+                                Is the product noisy in opration? Will it effect people's normal rest?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Is the product noisy in opration? Will it effect people's normal rest?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                until the collapse plugin adds the appropriate classes that we use to style each
+                                element. These classes control the overall appearance, as well as the showing and hiding
+                                via CSS transitions. You can modify any of this with custom CSS or overriding our
+                                default variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- subscribe -->
+    <section>
+        <div class="subscribe">
+            <div class="container">
+                <div class="d-lg-flex justify-content-between">
+                    <div class="text-white">
+                        <h1 class="text-uppercase">Subscribe</h1>
+                        <p>We're inspired by people like you to make technolgy better</p>
+                    </div>
+                    <div>
+                        <div class="mt-5" style="background: white;">
+                            <input type="text" class="px-5 py-2" placeholder="Name" aria-label="Input group example"
+                                aria-describedby="btnGroupAddon" style="border:none">
+                        </div>
+                    </div>
+                    <div class="ms-lg-5">
+                        <div class="mt-5" style="background: white;">
+                            <input type="text" class="px-5 py-2" placeholder="Email" aria-label="Input group example"
+                                aria-describedby="btnGroupAddon" style="border:none">
+                        </div>
+                    </div>
+                    <div>
+                        <button class="subscribe_btn">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section>
+        <div class="footer_main mb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 footer_main_a">
+                        <h4>Helpful Links</h4>
+                        <div class="d-flex justify-content-between mt-3">
+                            <div>
+                                <div>
+                                    <a href=""><i class="fa-solid fa-user me-3"></i>Need Help</a>
+                                </div>
+                                <div class="mt-3">
+                                    <a href=""><i class="fa-solid fa-user me-3"></i>Wish List</a>
+                                </div>
+                                <div class="mt-5">
+                                    <h4>About</h4>
+                                    <div class="mt-3">
+                                        <ul class="p-0 m-0">
+                                            <li><a href="">Our Company</a></li>
+                                            <li><a href="">Contact Us</a></li>
+                                            <li><a href="">Why Us</a></li>
+                                            <li><a href="">Customizations</a></li>
+                                            <li><a href="">Privacy Policy</a></li>
+                                            <li><a href="">Shipping & Returns</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <a href=""><i class="fa-solid fa-address-book me-3"></i>Order Status</a>
+
+                                </div>
+                                <div class="mt-3">
+                                    <a href=""><i class="fa-solid fa-address-book me-3"></i>Online Faq's</a>
+
+                                </div>
+                                <div class="mt-5">
+                                    <h4>Air Solutions</h4>
+                                    <div class="mt-3">
+                                        <ul class="p-0 m-0">
+                                            <li><a href="">Commercial</a></li>
+                                            <li><a href="">Healthy Home</a></li>
+                                            <li><a href="">Healthy Air System</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="mt-2">
+                                    <h4>Support</h4>
+                                    <div class="mt-1">
+                                        <ul class="p-0 m-0">
+                                            <li><a href="">Warranty Registration</a></li>
+                                            <li><a href="">Video Center</a></li>
+                                            <li><a href="">Product Catalog</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h1 class="footer_main_h1"><span class="footer_main_span">A</span>lpha</h1>
+                    </div>
+                    <div class="col-md-8 px-lg-5">
+                        <h4>Connect with Alphasystems</h4>
+                        <div class="d-flex footer_main_icon my-4">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-pinterest"></i>
+                        </div>
+                        <div>
+                            <h6>Alphasystems provied the highest performance air fitness for resitianl and commercial
+                                use
+                                for over 20 years</h6>
+                            <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores maxime,
+                                deserunt hic
+                                odit sunt unde impedit adipisicing elit. Dolores maxime, deserunt hic
+                                odit sunt unde impedit.</p>
+                            <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores maxime,
+                                deserunt hic
+                                odit sunt unde impedit adipisicing elit. Dolores maxime, deserunt hic
+                                odit sunt unde impedit. deserunt hic
+                                odit sunt unde impedit adipisicing elit. Dolores maxime, deserunt hic
+                                odit sunt unde impedit.</p>
+                        </div>
+                        <div class="footer_main_last_icons">
+                            <h6 class="my-3">Get in Touch with us !</h6>
+                            <a href=""><i class="fa-solid fa-location-dot me-3"></i> 123 Santa Bsh #222 West Ca,9000
+                                USA</a>
+                            <div>
+                                <a href=""><i class="fa-solid fa-envelope me-3"></i> states@alphasystems.com</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer_last">
+            <div class="container">
+                <div class="pt-4 d-flex">
+                    <a href="" class="text-white">Copyright @ 2022 Alphasystems.com. All Rights Reserved</a>
+                    <ul class="d-lg-flex footer_link">
+                        <li><a href="">Security & Privacy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Shipping & Returns</a></li>
+                        <li><a href="">Warranty & Registration</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="footer_link_p">For any difficulty using this site with a screen reader or beacause of a
+                        disablity, please
+                        contact us to sales@alphasystems.com/</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

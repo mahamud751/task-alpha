@@ -1,0 +1,456 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+section {
+    margin-top: 120px;
+}
+
+li {
+    list-style: none;
+}
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange_deep: #ED6600;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --gray-dark_deep: #2D1828;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* -- -----------------------------------------------navbar start---------------------------------------------------- */
+.navbar_social {
+    background: white;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.navbar_social_content {
+    margin-left: 170px;
+}
+
+.navbar_social li {
+    padding: 10px 10px;
+}
+
+.navbar_social_content h6 {
+    font-size: 14px;
+}
+
+.navbar_social_content p {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.nav-right {
+    background: var(--orange_deep);
+}
+
+.nav-right li {
+    border-right: 0.1px solid wheat;
+    margin: 0 10px;
+}
+
+.alpha {
+    margin-left: 410px;
+}
+
+.arrow {
+    font-size: 10px;
+    margin: 0 10px;
+}
+
+.nav-right li:last-child {
+    border-right: none
+}
+
+.nav-right li a {
+    color: white
+}
+
+/* -- -----------------------------------------------banner start---------------------------------------------------- */
+.carousel_main img {
+    height: 600px;
+    background-size: cover;
+}
+
+.slider_card {
+    width: 400px;
+    margin-left: 60%;
+    /* background-color: #212529; */
+    box-shadow: rgba(74, 74, 99, 0.911) 0px 7px 29px 0px;
+    padding: 30px;
+
+
+}
+
+.slider_h5 {
+    color: var(--orange_deep);
+}
+
+
+/* -- -----------------------------------------------Healthy air start---------------------------------------------------- */
+
+.healthy_text {
+    color: var(--orange_deep)
+}
+
+.card img {
+    height: 300px;
+    background-size: contain;
+}
+
+.card-title {
+    text-transform: capitalize;
+}
+
+.healty_read_me {
+    color: var(--orange_deep);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/* -------------------------------------------------------headquatrers--------------------------------------- */
+.Headquarters_span {
+    color: var(--orange_deep);
+}
+
+.headquarters i {
+    background: var(--orange_deep);
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 22px;
+
+}
+
+.headquarters_card {
+    background: var(--orange_deep);
+    height: 390px;
+}
+
+.headquarters_card_span {
+    font-size: larger;
+}
+
+.headquarters_card_btn {
+
+    width: 140px;
+    height: 43px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(120deg, #313131 0%, #000000 100%);
+    color: white;
+}
+
+.headquarters_card_part {
+    position: absolute;
+    margin-top: -590px;
+}
+
+.headquarters_bg {
+    background-image: url(../img/bg.png);
+    height: 340px;
+    margin-top: -420px;
+
+}
+
+
+
+.headquarters_bg i {
+    font-size: 44px;
+    color: var(--orange_deep)
+}
+
+.headquarters_Part_inside {
+    margin-top: 120px;
+}
+
+.headquarters_Part_tropy {
+    margin-top: 170px;
+}
+
+/* -------------------------------------------------------makes different start---------------------------------------- */
+.different_part {
+    margin-top: 320px;
+}
+
+.makes-different {
+    padding-top: 70px;
+}
+
+.makes-different h1 {
+    text-transform: uppercase;
+}
+
+.makes-different_span {
+    color: var(--orange_deep)
+}
+
+.thumbs_color {
+    color: var(--yellow);
+
+}
+
+.makes-different_btn {
+    margin-top: 40px;
+    width: 140px;
+    background: var(--orange_deep);
+    padding: 5px 8px;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+/* -------------------------------------------------------latest-arrival start---------------------------------------- */
+.technology {
+    padding-top: 70px;
+}
+
+.technology_h1 {
+    color: var(--orange_deep);
+}
+
+.technology_card {
+    height: 550px;
+}
+
+.technology_card1 {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 550px;
+    border-top: 4px solid var(--orange_deep);
+}
+
+.technology_card2 {
+    background: var(--orange_deep);
+    height: 550px;
+}
+
+.technology_circel_img {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+}
+
+
+/* -------------------------------------------------------latest-arrival start---------------------------------------- */
+.latest-arrival {
+    padding-top: 70px;
+}
+
+.latest_arrival_h1 {
+    color: var(--orange_deep);
+}
+
+.latest_arrival_p {
+    color: var(--gray-dark_deep)
+}
+
+
+/* ===================================          latest blog   ==============================*/
+.blog_background {
+    background-image: url(../img/bg.png);
+    height: 240px;
+    position: absolute;
+}
+
+.blog_card_part {
+    position: relative;
+    top: 160px;
+}
+
+.blog_card {
+    background: #F6F7F8;
+    height: 550px;
+    border-radius: 15px;
+
+}
+
+.blog_date {
+    font-size: 44px;
+    color: #DADBDC;
+    ;
+}
+
+
+.blog_read_more {
+    color: #66777F;
+    text-decoration: none;
+}
+
+
+/******************************** partner*/
+.partner {
+    margin-top: 320px;
+    background-image: linear-gradient(120deg, #ED6600 0%, #eeded9 100%);
+    height: 200px;
+}
+
+
+.partner_btn {
+    margin-top: 80px;
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(120deg, #313131 0%, #000000 100%);
+    color: white;
+}
+
+.partner_img {
+    margin-top: -100px;
+    width: 300px;
+}
+
+
+/* -------------------------------------------------------tetstimonials---------------------------------------- */
+.testimonial_h1 {
+    color: var(--orange_deep);
+}
+
+.testimonial_card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 400px;
+    border: 1px solid gray;
+
+}
+
+.testimonial_img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: -120px;
+
+}
+
+.testimonial_star {
+    color: var(--orange_deep);
+    margin-left: 5px;
+}
+
+
+
+/* -------------------------------------------------------subscriber---------------------------------------- */
+.subscribe {
+
+    background-image: linear-gradient(120deg, #ED6600 0%, #da4f25 100%);
+    height: 100px;
+}
+
+.subscribe_btn {
+    margin-top: 47px;
+    width: 140px;
+    height: 43px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(120deg, #313131 0%, #000000 100%);
+    color: white;
+}
+
+/* -------------------------------------------------------footer---------------------------------------- */
+.footer_main_a a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.footer_main_a i {
+    font-size: 32px;
+}
+
+.footer_main_h1 {
+    font-size: 64px;
+}
+
+.footer_main_span {
+    color: var(--orange_deep);
+}
+
+.footer_main_icon i {
+    margin-left: 10px;
+    background: #000000;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.footer_main_last_icons a {
+    color: gray;
+    text-decoration: none
+}
+
+/*----------------------------------------------------------------*/
+.footer_last {
+    background: #212529;
+    height: 100px;
+}
+
+.footer_link li {
+    margin-left: 15px;
+}
+
+.footer_link li a {
+    color: #b9b7b1;
+}
+
+.footer_link_p {
+    color: #b9b7b1;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .headquarters_bg {
+        background-image: url(../img/bg.png);
+        height: 440px;
+        margin-top: -250px;
+
+    }
+
+    .partner {
+        margin-top: 320px;
+        background-image: linear-gradient(120deg, #ED6600 0%, #eeded9 100%);
+        height: 362px;
+    }
+
+    .partner_text {
+        width: 65%;
+    }
+
+    .subscribe {
+        background-image: linear-gradient(120deg, #ED6600 0%, #da4f25 100%);
+        height: 350px;
+    }
+
+    .footer_last {
+        background: #212529;
+        height: 300px;
+    }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1600px) {
+    .alpha {
+        margin-left: 110px;
+    }
+}
